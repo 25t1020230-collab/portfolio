@@ -1,0 +1,42 @@
+* {
+    font-family: Arial, Helvetica, "sans-serif";
+    color: lightslategrey;
+
+}
+.header{
+    justify-content: center;
+}
+
+.skill__bar {
+    width: 200px;
+    height: 15px;
+    border: 2px solid lightskyblue;
+    border-radius: 15px;
+    border: 2px solid lightskyblue;
+    border-radius: 15px;
+}
+.html-css{
+    background-color: lightskyblue;
+    width: 180px;
+    height: 100%;
+}
+.cpp{
+    background-color: lightskyblue;
+    width: 50px;
+    height: 100%;
+}
+.c{
+    background-color: lightskyblue;
+    width: 50px;
+    height: 100%;
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+.content{
+    display: flex;
+}
+.content__right{
+    margin-left: 200px;
+}
