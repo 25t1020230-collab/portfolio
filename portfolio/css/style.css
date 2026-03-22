@@ -3,14 +3,17 @@
     color: lightslategrey;
 
 }
-body{
+
+body {
     background-image: url(../imgs/minimalism-cat-funny-digital-art-artwork-hd-wallpaper-preview.jpg);
     background-repeat: no-repeat;
-    background-position: center ;
-    background-size: cover;
+    background-size: 100% 100vh;
 }
-.header{
-    justify-content: center;
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
 }
 
 .skill__bar {
@@ -18,37 +21,75 @@ body{
     height: 15px;
     border: 2px solid powderblue;
     border-radius: 15px;
-    
+
 }
-.html-css{
+
+.html-css {
     background-color: powderblue;
-    width: 150px;
     height: 100%;
     border-radius: 15px;
+    animation: load_html-css 1s forwards;
 }
-.cpp{
+
+.cpp {
     background-color: powderblue;
-    width: 50px;
     height: 100%;
     border-radius: 15px;
+    animation: load_cpp 1s forwards;
 }
-.c{
+
+.c {
     background-color: powderblue;
-    width: 50px;
     height: 100%;
-    border-radius: 15px;    
+    border-radius: 15px;
+    animation: load_c 1s forwards;
 }
-.container{
-    width: 800px;
+
+.container {
+    width: 600px;
     margin: auto;
 }
-.content{
+
+.content {
     display: flex;
+    justify-content: space-between;
 }
-.content__right{
-    margin-left: 200px;
-}   
-a{
+
+.content__right {}
+
+a {
     text-decoration: none;
     color: lightslategrey;
+}
+
+.main {
+    color: powderblue;
+}
+
+@keyframes load_html-css {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 150px;
+    }
+}
+@keyframes load_cpp {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 50px;
+    }
+}
+@keyframes load_c {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 50px;
+    }
 }
