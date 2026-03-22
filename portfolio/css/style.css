@@ -3,6 +3,12 @@
     color: lightslategrey;
 
 }
+body{
+    background-image: url(../imgs/minimalism-cat-funny-digital-art-artwork-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+}
 .header{
     justify-content: center;
 }
@@ -10,25 +16,27 @@
 .skill__bar {
     width: 200px;
     height: 15px;
-    border: 2px solid lightskyblue;
+    border: 2px solid powderblue;
     border-radius: 15px;
-    border: 2px solid lightskyblue;
-    border-radius: 15px;
+    
 }
 .html-css{
-    background-color: lightskyblue;
-    width: 180px;
+    background-color: powderblue;
+    width: 150px;
     height: 100%;
+    border-radius: 15px;
 }
 .cpp{
-    background-color: lightskyblue;
+    background-color: powderblue;
     width: 50px;
     height: 100%;
+    border-radius: 15px;
 }
 .c{
-    background-color: lightskyblue;
+    background-color: powderblue;
     width: 50px;
     height: 100%;
+    border-radius: 15px;    
 }
 .container{
     width: 800px;
@@ -39,4 +47,8 @@
 }
 .content__right{
     margin-left: 200px;
+}   
+a{
+    text-decoration: none;
+    color: lightslategrey;
 }
