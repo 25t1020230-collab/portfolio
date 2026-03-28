@@ -3,7 +3,11 @@
     color: powderblue;
 
 }
-
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+}
 body {
     background-image: url(../imgs/minimalism-cat-funny-digital-art-artwork-hd-wallpaper-preview.jpg);
     background-repeat: no-repeat;
@@ -96,4 +100,22 @@ a {
     to {
         width: 50px;
     }
+}
+header {
+    text-align: center;
+}
+.transforms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.transform {
+    width: 450px;
+    text-align: center;
+}
+
+.transform img {
+    width: 100%;
+    height: auto;
 }
