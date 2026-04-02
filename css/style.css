@@ -66,6 +66,12 @@ body {
 a {
     text-decoration: none;
     color: powderblue;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #87ceeb;
+    text-decoration: underline;
 }
 
 .main {
